@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Aleksandra Oparina](https://up.htmlacademy.ru/adaptive/21/user/1540033).
-* Наставник: `Неизвестно`.
+* Наставник: [Кристина Новикова](https://htmlacademy.ru/profile/stina).
 
 ---
 
