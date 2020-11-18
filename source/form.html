@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="page" lang="ru">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
@@ -14,13 +14,13 @@
     <nav class="main-nav">
       <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
       <div class="main-nav__wrapper">
-        <ul class="main-nav__list">
+        <ul class="main-nav__list site-list">
           <li class="site-list__item">
             <a href="index.html">
               Главная
             </a>
           </li>
-          <li class="-site-list__item">
+          <li class="site-list__item">
             <a href="catalog.html">
               Фотографии
             </a>
@@ -41,8 +41,8 @@
   </header>
   <main>
     <form action="https://echo.htmlacademy.ru" method="GET">
-      <div class="list__name">
-        <ul>
+      <div class="user-form">
+        <ul class="user-form__list list-name">
           <li><label for="last-name">Фамилия</label>
             <input type="text" name="last-name" placeholder="Укажите фамилию *" required></li>
           <li><label for="first-name">Имя</label>
@@ -51,15 +51,15 @@
             <input type="text" name="patronymic-name" placeholder="Ну и отчество тоже"></li>
         </ul>
       </div>
-      <div class="progress__list">
+      <div class="user-form__list progress-list">
         <p>Ваши безбашенные достижения в путешествии</p>
-        <ul>
-          <li><label><input name="progress__item" type="checkbox" checked>Сделал селфи с акулой</label></li>
-          <li><label><input name="progress__item" type="checkbox" checked>Обгорел на пляже</label></li>
-          <li><label><input name="progress__item" type="checkbox">Видел Чака Норриса</label></li>
-          <li><label><input name="progress__item" type="checkbox">Накупил сувениров</label></li>
-          <li><label><input name="progress__item" type="checkbox" checked>Удержал башню</label></li>
-          <li><label><input name="progress__item" type="checkbox">Разгромил отель</label></li>
+        <ul class="progress-list__item">
+          <li><label><input name="progress-list__item" type="checkbox" checked>Сделал селфи с акулой</label></li>
+          <li><label><input name="progress-list__item" type="checkbox" checked>Обгорел на пляже</label></li>
+          <li><label><input name="progress-list__item" type="checkbox">Видел Чака Норриса</label></li>
+          <li><label><input name="progress-list__item" type="checkbox">Накупил сувениров</label></li>
+          <li><label><input name="progress-list__item" type="checkbox" checked>Удержал башню</label></li>
+          <li><label><input name="progress-list__item" type="checkbox">Разгромил отель</label></li>
         </ul>
       </div>
       <div class="list__contacts">
@@ -70,14 +70,14 @@
             <input type="email" name="email" placeholder="Введите почту *" required></li>
         </ul>
       </div>
-      <div class="application__list">
-        <ul>
-          <li><label><input name="application__item" type="radio" checked>Pink для iOS</label></li>
-          <li><label><input name="application__item" type="radio">Pink на Android</label></li>
-          <li><label><input name="application__item" type="radio">Windows Phone</label></li>
+      <div class="phone-application__list phone-application">
+        <ul class="phone-application__item">
+          <li><label><input name="phone-application__item" type="radio" checked>Pink для iOS</label></li>
+          <li><label><input name="phone-application__item" type="radio">Pink на Android</label></li>
+          <li><label><input name="phone-application__item" type="radio">Windows Phone</label></li>
         </ul>
       </div>
-      <div class="list__emotion">
+      <div class="emotion">
         <h3>Опишите свои эмоции</h3>
         <textarea name="emotion" id="emotion" cols="30" rows="10"
           placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
@@ -94,16 +94,16 @@
       <a class="logo">
         <img src="img/pink.svg" alt="Pink">
       </a>
-      <div class="page-footer__social">
+      <div class="page-footer__social social">
         <ul class="social__list">
           <li class="social__item">
-            <a class="socail__link social__link--twitter" href="#"><img src="img/twitter.svg" alt="Мы в Твитере"></a>
+            <a class="social__link social__link--twitter" href="#"><img src="img/twitter.svg" alt="Мы в Твитере"></a>
           </li>
           <li class="social__item">
-            <a class="socail__link social__link--facebook" href="#"><img src="img/facebook.svg" alt="Мы в Фейсбуке"></a>
+            <a class="social__link social__link--facebook" href="#"><img src="img/facebook.svg" alt="Мы в Фейсбуке"></a>
           </li>
           <li class="social__item">
-            <a class="socail__link social__link--youtube" href="#"><img src="img/youtube.svg" alt="Мы на Ютубе"></a>
+            <a class="social__link social__link--youtube" href="#"><img src="img/youtube.svg" alt="Мы на Ютубе"></a>
           </li>
         </ul>
       </div>
