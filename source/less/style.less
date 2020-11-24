@@ -1,2 +1,68 @@
-// Начните писать стили здесь
-body { background: red; }
+//viewport
+@tablet-width: 660px;
+@desktop-width: 1200px;
+@mobile-width-only: 659px;
+
+//colors
+@darkgrey: #000000;
+@lightgrey: #283645;
+
+@import("global/fonts.less");
+
+@font-face {
+  font-family: "Open Sans";
+  src: url(/source/fonts/opensans.woff) format("woff");
+  src: url(/source/fonts/opensans.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url(/source/fonts/opensansbold.woff) format("woff");
+  src: url(/source/fonts/opensansbold.woff2) format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.smart-list {
+  background-image: url("../img/back-mobile.svg");
+  background-repeat: no-repeat;
+
+}
+
+a {
+  background-color: #1D2631;
+}
+
+.advantages {
+  background-color: #F2F2F2;
+
+}
+
+.th {
+  background-color: #283645;
+}
+
+.iphone {
+  background-image: url("../img/iphone3.jpg");
+}
+
+.h3 {
+  font-weight: 300;
+  color: #283645;
+}
+
+.contacts__phone .contacts__mail .contacts__text {
+  color: #D22856;
+  width: 300;
+  font-size: 24px;
+  line-height: 32.68px;
+}
